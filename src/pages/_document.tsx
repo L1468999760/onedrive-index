@@ -13,7 +13,6 @@ class MyDocument extends Document {
           {siteConfig.googleFontLinks.map(link => (
             <link key={link} rel="stylesheet" href={link} />
           ))}
-          <script defer src="https://traffic.lijinning.top/script.js" data-website-id="fc592d11-16cf-462d-bfb1-9143123b4397"></script>
         </Head>
         <body>
           <Main />
